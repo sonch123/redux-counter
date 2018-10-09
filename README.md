@@ -1,3 +1,60 @@
+
+### React Exercise. ###
+
+### How to install the create-react-app
+
+1. Install npm package manager for JavaScript
+2. Check npm --version // To make sure install correctly before next step 
+3. npm install -g create-react-app
+4. Check create-react-app --version // To make sure install correctly before next step.
+5. create-react-app redux-counter
+
+### Setup app
+
+1. cd redux-counter
+2. Installing React Redux
+    npm install --save react-redux
+3. Delete files following
+      App.css
+      App.js
+      App.test.js
+      logo.svg
+4. Make Directory below
+      actions: 액션타입, 액션생성자 파일이 저장됩니다.
+      components: 뷰만을 담당하는 presentational 컴포넌트들이 저장됩니다.
+      containers: store 에 접근이 닿는 container 컴포넌트들이 저장됩니다.
+      reducers: 스토어의 기본상태와, 상태의 업데이트를 담당하는 리듀서 파일들이 저장됩니다.
+      utils: 일부 컴포넌트들에서 공용되는 파일이 저장됩니다.  
+5. npm start
+
+###
+
+Initialized a git repository.
+
+Success! Created my-app at C:\React\my-app
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd my-app
+  npm start
+
+
+###
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
