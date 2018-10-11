@@ -7,7 +7,7 @@ const Counter = ({number, color, onIncrement, onDecrement, onSetColor}) =>{
       <dir
           className = "Counter"
           onClick = {onIncrement}
-          on ContextMenu={
+          onContextMenu={
               (e) => {
                   e.preventDefault();
                   onDecrement();
