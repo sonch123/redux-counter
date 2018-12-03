@@ -15,7 +15,7 @@ export const decrement = () => ({
 });
 
 // Unlike other action creators, it has parameter.
-export const setColor = () =>({
+export const setColor = () => ({
     type: types.SET_COLOR,
     color
 });
